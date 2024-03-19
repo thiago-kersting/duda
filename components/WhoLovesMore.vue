@@ -21,15 +21,7 @@
 </template>
 
 <style scoped>
-.border {
-    padding: 1rem;
-    background-color: white;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
+
 .btns {
     display: flex;
     flex-direction: column;
