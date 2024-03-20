@@ -25,7 +25,7 @@ const route = useRoute();
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
 }
 .container {

@@ -2,14 +2,14 @@
     <section class="border">
             <h1>Quem ama mais?</h1>
             <div class="btns">
-                <nuxt-link to="/thi">
+                <nuxt-link to="/Thi">
                     <button class="btn thi">
                         <i class="animation"></i>
                         Thi
                         <i class="animation"></i>
                     </button>
                 </nuxt-link>
-                <nuxt-link to="/thi">
+                <nuxt-link to="/Duda">
                     <button class="btn">
                         <i class="animation"></i>
                         Duda
