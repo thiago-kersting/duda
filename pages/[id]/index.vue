@@ -10,7 +10,7 @@
     <div class="messages">
       <div v-for="(message, index) in messageStore.messages" :key="index">
         <p class="name" :style="{ color: getColor(message.name) }">{{ message.name }}:</p>
-        <p>{{ message.message }}</p>
+        <p class="text">{{ message.message }}</p>
         <p class="date">{{ messageStore.formatarData(message.createdAt) }}</p>
       </div>
     </div>
@@ -54,6 +54,9 @@ const submitForm = async () => {
   padding: 0 1rem;
   width: 100%;
 }
+.text {
+  max-width: 11rem;
+}
 .messages div {
   width: 100%;
   display: flex;
@@ -67,6 +70,7 @@ const submitForm = async () => {
   font-size: 10px;
   font-weight: bold;
   margin-left: auto;
+  align-self: last baseline;
 }
 form {
   display: flex;
